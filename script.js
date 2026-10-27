@@ -22,7 +22,7 @@ btn.addEventListener("click", function() {
     let shoutInput = document.getElementById("shoutInput");
     let outShout = document.getElementById("outShout");
     
-    outShout.innerHTML = shoutInput.value.toUpperCase();
+    outShout.innerHTML = shoutInput.value.toUpperCase() + "!";
 });
 
 // STEP 2: Add a click event listener to the button.

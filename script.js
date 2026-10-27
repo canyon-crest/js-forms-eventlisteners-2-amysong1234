@@ -103,7 +103,7 @@ document.getElementById("clearBtn").addEventListener("click", function() {
 
     // b) Set the Large radio (id "r3") to checked = true
     document.getElementById("r3").checked = true;
-
+// jjjjjjj
     // c) Uncheck ALL topping checkboxes
     const toppings = document.getElementsByName("cb");
     for (let i = 0; i < toppings.length; i++) {

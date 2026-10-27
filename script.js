@@ -17,9 +17,14 @@
 
 // STEP 1: Get the "Shout" button by its ID ("btnShout")
 //         using document.getElementById()
-let btn = document.getElementById("btnShout").addEventListener("click", function() {
+let btn = document.getElementById("btnShout");
+btn.addEventListener("click", function() {
+    let shoutInput = document.getElementById("shoutInput");
+    let outShout = document.getElementById("outShout");
+    
     outShout.innerHTML = shoutInput.value.toUpperCase();
-})
+});
+
 // STEP 2: Add a click event listener to the button.
 //         Inside the listener function:
 //         a) Get the text from the input with ID "shoutInput"
